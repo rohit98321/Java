@@ -7,6 +7,8 @@ class ArrayLists{
        list.add(0);
        list.add(2);
        list.add(3);
+       list.add(10);
+       list.add(50);
 
        System.out.println(list);
 

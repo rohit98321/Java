@@ -42,7 +42,8 @@ class CabService {
 
     void Display(){
         System.out.println("CarType : "+CarType.toUpperCase());
-        System.out.println("total bill : "+bill);
+        System.out.println("Distance : "+distance+"KM");
+        System.out.println("Total Bill : "+bill+" INR");
     }
 
 }
@@ -55,9 +56,9 @@ public class Q1 {
 
         String Cartype="";
         double distance=0;
-        System.out.println("please enter car type Non-ac/Ac : ");
+        System.out.print("please enter car type AC/NON-AC : ");
         Cartype=sc.nextLine();
-        System.out.println("enter your total distance : ");
+        System.out.print("enter your total distance : ");
         distance=sc.nextDouble();
 
         CabService c1=new CabService();
